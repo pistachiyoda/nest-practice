@@ -6,8 +6,6 @@ import {
   Param,
   Patch,
   Post,
-  UsePipes,
-  ValidationPipe,
 } from '@nestjs/common';
 import { CreateTaskDto, UpdateTaskDto } from './todo.dto';
 import { TodoService } from './todo.service';
